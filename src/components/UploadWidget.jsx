@@ -7,13 +7,13 @@ export default function UploadWidget() {
 
   const activateWidget = async () => {
     const widgetOptions = {
-      cloudName: "dgkxdy80k",
+      cloudName: "",
       tags: ["cl-upload"],
       folder: "uploads-test",
       validateMaxWidthHeight: true,
       maxImageWidth: 750,
       maxImageHeight: 750,
-      uploadPreset: "ijgewvgg",
+      uploadPreset: "",
     };
 
     const processResults = (error, result) => {
